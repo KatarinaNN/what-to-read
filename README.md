@@ -12,7 +12,7 @@ This project can be used for educational purposes.
 
 # Installation
 
-Use the GitHub link []).
+Use the GitHub link [https://github.com/KatarinaNN/what-to-read.git]).
 
 ## Available Scripts
 

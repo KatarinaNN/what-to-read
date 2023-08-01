@@ -1,0 +1,66 @@
+body{
+    background-color: bisque;
+}
+.header, .image-container, .btn-container{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-family: 'Handlee', cursive;
+}
+h1{
+    text-align: center;
+}
+#link{
+    font-size: 30px;
+}
+#myImage{
+    border-radius: 10px;
+}
+#one, #two{
+    padding: 15px;
+    margin: 20px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 7px;
+    border: 2px solid black;
+    font-family: 'Handlee', cursive;
+    background-color: #faeede;
+}
+#one:hover{
+    background: linear-gradient(to right, rgb(242, 200, 200), rgb(249, 246, 239) );
+}
+#two:hover{
+    background: linear-gradient(to right, rgb(198, 208, 240), rgb(255, 255, 255) );
+}
+#reload{
+    display: none;
+    background-color: #faeede;
+    margin: 5px;
+    margin-top: 20px;
+    padding: 1px;
+    width: 57px;
+    height: 57px;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 7px;
+    font-family: 'Handlee', cursive;
+}
+@media all and (max-width:500px){
+    #myImage{
+    width: 300px;
+    align-self: center;
+} 
+#link{
+    font-size: 25px;
+}
+#one, #two{
+    padding: 10px;
+    margin: 10px;
+    width: 90px;
+    font-size: 15px;
+}
+}
+
+
+
